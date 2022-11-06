@@ -10,7 +10,6 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./font-awesome/css/fontawesome.min.css">
-    <script src="https://kit.fontawesome.com/834e698b3a.js" crossorigin="anonymous"></script>
     <title>Login</title>
 </head>
 <body>
@@ -22,9 +21,9 @@
             <section class="container">
                 <input type="email" placeholder="exemplo@exemple.com">
                 <div class="password-container">
-                    <input type="password" class="password" id="passwordCont" placeholder="******">
-                    <i class="fa-regular fa-eye"></i>
-                    <i class="fa-regular fa-eye-slash"></i>
+                    <input type="password" class="password" id="password" placeholder="******" onclick="oculta()">
+                    <img id="eye" src="./assets/img/eye-regular.svg" alt="" onclick="oculta()">
+                    <img onclick="oculta()" id="eye-slash" src="./assets/img/eye-slash-regular.svg" alt="">
                 </div>
 
             </section>
@@ -40,9 +39,9 @@
             <section class="link">
                 <span>Ou entre com:</span>
                 <aside>
-                    <a href="#"><i class="fa-brands fa-google-plus-g"></i></a>
-                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
-                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><img src="./assets/img/google-plus-g.svg" alt=""></a>
+                    <a href="#"><img src="./assets/img/linkedin-in.svg" alt=""></a>
+                   <a href="#"> <img src="./assets/img/facebook.svg" alt=""></a>
                 </aside>
 
 
